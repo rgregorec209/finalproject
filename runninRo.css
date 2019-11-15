@@ -1,0 +1,31 @@
+body {
+    background-color: #ff95d3f6;
+  }
+  
+  h1 {
+    color: rgb(76, 179, 226);
+    margin-left: 20px;
+       text-align: center;
+        color: teal; 
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+        font-style: oblique;   
+        font: bold;
+        
+        
+        
+  }
+p{text-align: center;
+font-family: cursive;
+font-weight: bolder;}
+img {
+  margin-left: 209px;
+      max-width: 25%;
+    height: 50%;
+  
+}
+
+h2 {color: rgb(31, 8, 54);
+    text-align: center;
+    background-color: teal;
+       }
+p{text-align: center;}
