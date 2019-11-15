@@ -15,9 +15,17 @@ function calculateFunction() {
     //Print the result to the pace box for miles per minute
     var pace = document.getElementById("pace");
     pace.value = sum;
-    var round =Math.round (2.5);
-      document.getElementById("pace").innerHTML = Math.round(2.5);
+    var round =Math.round (newFunction());
+      document.getElementById("pace").innerHTML = Math.round(newFunction_1());
     
     var roundedDividend = Math.round( "sum" );  
       document.getElementById("sum" ).innerHTML = Math.round("sum");
+
+  function newFunction_1() {
+    return 2.5;
+  }
+
+  function newFunction() {
+    return 2.5;
+  }
   }
